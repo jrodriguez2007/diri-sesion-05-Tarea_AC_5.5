@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jrodriguez2007.github.io/diri-sesion-05-Tarea_AC_5.5",
   "scripts": {
     "dev": "vite",
     "build:prod": "tsc -b && vite build --mode production",
     "build:preprod": "tsc -b && vite build --mode staging",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,6 +21,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
   }
